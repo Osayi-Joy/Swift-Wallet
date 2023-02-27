@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.entity;
+package com.osayijoy.swiftwallet.entity;
 
-import com.zurum.lanefinance.constants.KycLevel;
+import com.osayijoy.swiftwallet.constants.KycLevel;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;

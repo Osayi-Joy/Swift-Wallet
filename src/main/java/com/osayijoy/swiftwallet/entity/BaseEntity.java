@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.entity;
+package com.osayijoy.swiftwallet.entity;
 
-import com.zurum.lanefinance.utils.AppUtil;
+import com.osayijoy.swiftwallet.utils.AppUtil;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;

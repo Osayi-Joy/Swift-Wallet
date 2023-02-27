@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.security;
+package com.osayijoy.swiftwallet.security;
 
-import com.zurum.lanefinance.filters.CustomAuthenticationFilter;
+import com.osayijoy.swiftwallet.filters.CustomAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

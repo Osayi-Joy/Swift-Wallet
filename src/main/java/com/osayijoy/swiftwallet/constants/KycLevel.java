@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.constants;
+package com.osayijoy.swiftwallet.constants;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

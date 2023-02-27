@@ -1,7 +1,7 @@
-package com.zurum.lanefinance.dtos.response;
+package com.osayijoy.swiftwallet.dtos.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.zurum.lanefinance.constants.ResponseStatus;
+import com.osayijoy.swiftwallet.constants.ResponseStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

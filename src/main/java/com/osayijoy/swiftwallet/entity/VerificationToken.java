@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.entity;
+package com.osayijoy.swiftwallet.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,9 +1,10 @@
-package com.zurum.lanefinance.service;
+package com.osayijoy.swiftwallet.service;
 
-import com.zurum.lanefinance.dtos.request.UpdateUserRequestDto;
-import com.zurum.lanefinance.dtos.request.UserRegistrationRequestDto;
-import com.zurum.lanefinance.dtos.response.RegistrationResponseDto;
-import com.zurum.lanefinance.entity.User;
+
+import com.osayijoy.swiftwallet.dtos.request.UpdateUserRequestDto;
+import com.osayijoy.swiftwallet.dtos.request.UserRegistrationRequestDto;
+import com.osayijoy.swiftwallet.dtos.response.RegistrationResponseDto;
+import com.osayijoy.swiftwallet.entity.User;
 
 public interface UserService {
     RegistrationResponseDto registerUser(UserRegistrationRequestDto registrationRequestDto);

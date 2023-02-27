@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.entity;
+package com.osayijoy.swiftwallet.entity;
 
-import com.zurum.lanefinance.constants.RoleEnum;
+import com.osayijoy.swiftwallet.constants.RoleEnum;
 import jakarta.persistence.*;
 import lombok.*;
 import org.apache.commons.lang3.builder.EqualsBuilder;

@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.utils;
+package com.osayijoy.swiftwallet.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;

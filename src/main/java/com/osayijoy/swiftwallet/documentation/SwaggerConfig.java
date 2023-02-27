@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.documentation;
+package com.osayijoy.swiftwallet.documentation;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.models.Components;

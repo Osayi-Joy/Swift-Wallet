@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.constants;
+package com.osayijoy.swiftwallet.constants;
 
 public class SecurityConstants {
 

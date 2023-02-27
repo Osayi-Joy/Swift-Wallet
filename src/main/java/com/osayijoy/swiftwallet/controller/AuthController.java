@@ -1,21 +1,19 @@
-package com.zurum.lanefinance.controller;
+package com.osayijoy.swiftwallet.controller;
 
 
-import com.zurum.lanefinance.dtos.request.LogInRequest;
-import com.zurum.lanefinance.dtos.request.UserRegistrationRequestDto;
-import com.zurum.lanefinance.dtos.response.AppResponse;
-import com.zurum.lanefinance.dtos.response.RegistrationResponseDto;
-import com.zurum.lanefinance.dtos.response.TokenResponse;
-import com.zurum.lanefinance.exceptions.CustomException;
-import com.zurum.lanefinance.service.UserService;
-import com.zurum.lanefinance.utils.SecurityUtil;
-import com.zurum.lanefinance.utils.StringUtil;
+import com.osayijoy.swiftwallet.dtos.request.LogInRequest;
+import com.osayijoy.swiftwallet.dtos.request.UserRegistrationRequestDto;
+import com.osayijoy.swiftwallet.dtos.response.AppResponse;
+import com.osayijoy.swiftwallet.dtos.response.RegistrationResponseDto;
+import com.osayijoy.swiftwallet.dtos.response.TokenResponse;
+import com.osayijoy.swiftwallet.exceptions.CustomException;
+import com.osayijoy.swiftwallet.service.UserService;
+import com.osayijoy.swiftwallet.utils.SecurityUtil;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
-
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -34,10 +32,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 import java.util.List;
-import java.util.Objects;
 
-import static com.zurum.lanefinance.constants.SecurityConstants.PASSWORD_NOT_MATCH_MSG;
-import static com.zurum.lanefinance.utils.StringUtil.doesBothStringMatch;
+import static com.osayijoy.swiftwallet.constants.SecurityConstants.PASSWORD_NOT_MATCH_MSG;
+import static com.osayijoy.swiftwallet.utils.StringUtil.doesBothStringMatch;
 
 @Slf4j
 @Tag(name = "Authentication Controller")
@@ -65,9 +62,8 @@ public class AuthController {
 
     private void validateUserRegistrationDto(UserRegistrationRequestDto request) {
         log.info("validating user registration request for email :: {}", request.getEmail());
-        if (!doesBothStringMatch(request.getConfirmPassword(), request.getPassword())) {
+        if (!doesBothStringMatch(request.getConfirmPassword(), request.getPassword()))
             throw new CustomException(PASSWORD_NOT_MATCH_MSG, HttpStatus.BAD_REQUEST);
-        }
         List<String> roleEnum = List.of("USER","ADMIN","STAFF","VENDOR");
 
         String role = request.getRole();

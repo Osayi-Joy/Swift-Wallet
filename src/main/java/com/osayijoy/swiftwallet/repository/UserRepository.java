@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.repository;
+package com.osayijoy.swiftwallet.repository;
 
-import com.zurum.lanefinance.entity.User;
+import com.osayijoy.swiftwallet.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

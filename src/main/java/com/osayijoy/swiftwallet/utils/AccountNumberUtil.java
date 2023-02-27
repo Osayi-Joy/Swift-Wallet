@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.utils;
+package com.osayijoy.swiftwallet.utils;
 
 public class AccountNumberUtil {
 

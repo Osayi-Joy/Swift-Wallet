@@ -1,8 +1,9 @@
-package com.zurum.lanefinance.service;
+package com.osayijoy.swiftwallet.service;
 
-import com.zurum.lanefinance.dtos.request.ActivateAccountRequestDto;
-import com.zurum.lanefinance.dtos.response.FetchAccountResponseDto;
-import com.zurum.lanefinance.entity.Wallet;
+
+import com.osayijoy.swiftwallet.dtos.request.ActivateAccountRequestDto;
+import com.osayijoy.swiftwallet.dtos.response.FetchAccountResponseDto;
+import com.osayijoy.swiftwallet.entity.Wallet;
 
 public interface WalletService {
     FetchAccountResponseDto fetchAccount(long accountNumber);

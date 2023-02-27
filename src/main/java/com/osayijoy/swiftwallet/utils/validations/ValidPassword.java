@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.utils.validations;
+package com.osayijoy.swiftwallet.utils.validations;
 
 
 import jakarta.validation.Constraint;

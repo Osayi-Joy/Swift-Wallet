@@ -1,5 +1,5 @@
 
-# Lane Finance Application
+#Swift-Wallet Application
 
 ![example workflow](https://github.com/engrceey/Test/actions/workflows/maven.yml/badge.svg)
 

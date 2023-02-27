@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.exceptions;
+package com.osayijoy.swiftwallet.exceptions;
 
 import lombok.Builder;
 import lombok.Getter;

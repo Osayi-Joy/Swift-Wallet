@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.dtos.response;
+package com.osayijoy.swiftwallet.dtos.response;
 
-import com.zurum.lanefinance.constants.WalletType;
+import com.osayijoy.swiftwallet.constants.WalletType;
 import lombok.Data;
 
 import java.math.BigDecimal;

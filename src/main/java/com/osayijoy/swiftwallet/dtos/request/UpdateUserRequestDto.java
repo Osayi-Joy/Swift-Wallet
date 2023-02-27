@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.dtos.request;
+package com.osayijoy.swiftwallet.dtos.request;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Builder;

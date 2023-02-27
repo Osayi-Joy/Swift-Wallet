@@ -1,8 +1,8 @@
-package com.zurum.lanefinance.dtos.request;
+package com.osayijoy.swiftwallet.dtos.request;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.zurum.lanefinance.utils.validations.PhoneNumber;
-import com.zurum.lanefinance.utils.validations.ValidPassword;
+import com.osayijoy.swiftwallet.utils.validations.PhoneNumber;
+import com.osayijoy.swiftwallet.utils.validations.ValidPassword;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

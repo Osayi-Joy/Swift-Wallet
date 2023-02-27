@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.exceptions;
+package com.osayijoy.swiftwallet.exceptions;
 
-import com.zurum.lanefinance.constants.ResponseStatus;
+import com.osayijoy.swiftwallet.constants.ResponseStatus;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.http.HttpStatus;

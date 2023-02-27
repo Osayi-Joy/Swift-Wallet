@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.dtos.response;
+package com.osayijoy.swiftwallet.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

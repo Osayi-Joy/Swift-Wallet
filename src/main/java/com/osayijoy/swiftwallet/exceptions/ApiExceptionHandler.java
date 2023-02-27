@@ -1,7 +1,7 @@
-package com.zurum.lanefinance.exceptions;
+package com.osayijoy.swiftwallet.exceptions;
 
 
-import com.zurum.lanefinance.dtos.response.AppResponse;
+import com.osayijoy.swiftwallet.dtos.response.AppResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.context.support.DefaultMessageSourceResolvable;

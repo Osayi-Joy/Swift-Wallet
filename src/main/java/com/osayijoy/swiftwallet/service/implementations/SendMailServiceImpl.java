@@ -1,8 +1,8 @@
-package com.zurum.lanefinance.service.implementations;
+package com.osayijoy.swiftwallet.service.implementations;
 
-import com.zurum.lanefinance.dtos.request.EmailDto;
-import com.zurum.lanefinance.exceptions.CustomException;
-import com.zurum.lanefinance.service.SendMailService;
+import com.osayijoy.swiftwallet.dtos.request.EmailDto;
+import com.osayijoy.swiftwallet.exceptions.CustomException;
+import com.osayijoy.swiftwallet.service.SendMailService;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;

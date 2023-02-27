@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.dtos.request;
+package com.osayijoy.swiftwallet.dtos.request;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;

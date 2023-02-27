@@ -1,8 +1,8 @@
-package com.zurum.lanefinance.controller;
+package com.osayijoy.swiftwallet.controller;
 
-import com.zurum.lanefinance.dtos.request.EmailDto;
-import com.zurum.lanefinance.dtos.response.AppResponse;
-import com.zurum.lanefinance.service.SendMailService;
+import com.osayijoy.swiftwallet.dtos.request.EmailDto;
+import com.osayijoy.swiftwallet.dtos.response.AppResponse;
+import com.osayijoy.swiftwallet.service.SendMailService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

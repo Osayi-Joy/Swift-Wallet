@@ -1,7 +1,7 @@
-package com.zurum.lanefinance.entity;
+package com.osayijoy.swiftwallet.entity;
 
-import com.zurum.lanefinance.constants.WalletCurrency;
-import com.zurum.lanefinance.constants.WalletType;
+import com.osayijoy.swiftwallet.constants.WalletCurrency;
+import com.osayijoy.swiftwallet.constants.WalletType;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;

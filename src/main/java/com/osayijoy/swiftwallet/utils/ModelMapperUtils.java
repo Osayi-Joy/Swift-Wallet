@@ -1,4 +1,4 @@
-package com.zurum.lanefinance.utils;
+package com.osayijoy.swiftwallet.utils;
 
 import org.modelmapper.AbstractCondition;
 import org.modelmapper.Condition;

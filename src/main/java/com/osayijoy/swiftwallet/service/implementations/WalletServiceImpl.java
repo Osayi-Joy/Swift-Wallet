@@ -1,15 +1,15 @@
-package com.zurum.lanefinance.service.implementations;
+package com.osayijoy.swiftwallet.service.implementations;
 
-import com.zurum.lanefinance.dtos.request.ActivateAccountRequestDto;
-import com.zurum.lanefinance.dtos.response.FetchAccountResponseDto;
-import com.zurum.lanefinance.entity.User;
-import com.zurum.lanefinance.entity.Wallet;
-import com.zurum.lanefinance.exceptions.ResourceNotFoundException;
-import com.zurum.lanefinance.repository.UserRepository;
-import com.zurum.lanefinance.repository.WalletRepository;
-import com.zurum.lanefinance.service.WalletService;
-import com.zurum.lanefinance.utils.AppUtil;
-import com.zurum.lanefinance.utils.ModelMapperUtils;
+import com.osayijoy.swiftwallet.dtos.request.ActivateAccountRequestDto;
+import com.osayijoy.swiftwallet.dtos.response.FetchAccountResponseDto;
+import com.osayijoy.swiftwallet.entity.User;
+import com.osayijoy.swiftwallet.entity.Wallet;
+import com.osayijoy.swiftwallet.exceptions.ResourceNotFoundException;
+import com.osayijoy.swiftwallet.repository.UserRepository;
+import com.osayijoy.swiftwallet.repository.WalletRepository;
+import com.osayijoy.swiftwallet.service.WalletService;
+import com.osayijoy.swiftwallet.utils.AppUtil;
+import com.osayijoy.swiftwallet.utils.ModelMapperUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;

@@ -1,8 +1,7 @@
-package com.zurum.lanefinance.utils.validations;
+package com.osayijoy.swiftwallet.utils.validations;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
-
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;

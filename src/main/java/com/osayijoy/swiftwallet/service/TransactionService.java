@@ -1,11 +1,12 @@
-package com.zurum.lanefinance.service;
+package com.osayijoy.swiftwallet.service;
 
-import com.zurum.lanefinance.dtos.request.DepositAccountRequestDto;
-import com.zurum.lanefinance.dtos.request.TransferFundRequestDto;
-import com.zurum.lanefinance.dtos.request.WithdrawFundRequestDto;
-import com.zurum.lanefinance.dtos.response.DepositResponseDto;
-import com.zurum.lanefinance.dtos.response.TransferResponseDto;
-import com.zurum.lanefinance.dtos.response.WithdrawFundResponseDto;
+
+import com.osayijoy.swiftwallet.dtos.request.DepositAccountRequestDto;
+import com.osayijoy.swiftwallet.dtos.request.TransferFundRequestDto;
+import com.osayijoy.swiftwallet.dtos.request.WithdrawFundRequestDto;
+import com.osayijoy.swiftwallet.dtos.response.DepositResponseDto;
+import com.osayijoy.swiftwallet.dtos.response.TransferResponseDto;
+import com.osayijoy.swiftwallet.dtos.response.WithdrawFundResponseDto;
 
 public interface TransactionService {
     DepositResponseDto depositFunds(DepositAccountRequestDto depositAccountRequestDto);

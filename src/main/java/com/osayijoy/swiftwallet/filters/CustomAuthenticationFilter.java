@@ -1,8 +1,8 @@
-package com.zurum.lanefinance.filters;
+package com.osayijoy.swiftwallet.filters;
 
-import com.zurum.lanefinance.constants.SecurityConstants;
-import com.zurum.lanefinance.exceptions.CustomException;
-import com.zurum.lanefinance.utils.SecurityUtil;
+import com.osayijoy.swiftwallet.constants.SecurityConstants;
+import com.osayijoy.swiftwallet.exceptions.CustomException;
+import com.osayijoy.swiftwallet.utils.SecurityUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

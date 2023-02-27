@@ -1,9 +1,8 @@
-package com.zurum.lanefinance.utils.validations;
+package com.osayijoy.swiftwallet.utils.validations;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.passay.*;
-
 
 import java.util.Arrays;
 import java.util.List;

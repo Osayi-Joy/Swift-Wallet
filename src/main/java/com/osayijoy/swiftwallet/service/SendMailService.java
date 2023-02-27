@@ -1,6 +1,6 @@
-package com.zurum.lanefinance.service;
+package com.osayijoy.swiftwallet.service;
 
-import com.zurum.lanefinance.dtos.request.EmailDto;
+import com.osayijoy.swiftwallet.dtos.request.EmailDto;
 import jakarta.mail.MessagingException;
 
 
